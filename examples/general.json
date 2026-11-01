@@ -1,0 +1,12 @@
+{
+  "arrival": {"name": "gamma", "parameters": {"shape": 2, "scale": 0.625}},
+  "service": {"name": "lognormal", "parameters": {"meanlog": -0.32, "sigma": 0.8}},
+  "servers": 2,
+  "discipline": "FCFS",
+  "warmup": 2000,
+  "duration": 20000,
+  "followup": 20000,
+  "max_events": 5000000,
+  "priority_values": [0, 1, 2],
+  "priority_probabilities": [0.2, 0.3, 0.5]
+}

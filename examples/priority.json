@@ -1,0 +1,11 @@
+{
+  "arrival": {"name": "exponential", "parameters": {"mean": 0.625}},
+  "service": {"name": "gamma", "parameters": {"shape": 2, "scale": 0.5}},
+  "servers": 2,
+  "discipline": "PR",
+  "warmup": 2000,
+  "duration": 10000,
+  "followup": 10000,
+  "priority_values": [0, 1, 2],
+  "priority_probabilities": [0.2, 0.3, 0.5]
+}

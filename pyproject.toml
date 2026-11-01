@@ -4,13 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mm1-research"
-version = "0.1.0"
-description = "Reproducible event-driven M/M/1 experiments"
+version = "0.2.0"
+description = "Reproducible event-driven M/M/1 and general G/G/c experiments"
 requires-python = ">=3.11"
 dependencies = ["numpy==2.3.5", "scipy==1.17.0", "matplotlib==3.10.8"]
 
 [project.scripts]
 mm1-experiment = "mm1.experiment:main"
+queue-experiment = "queuesim.experiment:main"
 
 [tool.setuptools.packages.find]
-include = ["mm1*"]
+include = ["mm1*", "queuesim*"]

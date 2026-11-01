@@ -1,3 +1,9 @@
+# 대기행렬 시뮬레이션
+
+일반형 G/G/c의 분포·서버 수·FCFS/LCFS/PR/SJF 설정과 workload·대기시간 분포 출력은
+[일반형 사용 설명서](GENERAL.md)를 참고하세요. 예제는 `examples/general.json`,
+`examples/priority.json`입니다. 기존 M/M/1 사용법은 아래에 유지했습니다.
+
 # M/M/1 연구용 이산사건 시뮬레이션
 
 빈 시스템에서 시작하는 단일 서버 FCFS 대기행렬을 이벤트 기반으로 모사한다.
